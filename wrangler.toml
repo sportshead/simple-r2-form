@@ -7,10 +7,10 @@ workers_dev = false
 # add a route here or in the dashboard
 
 [vars]
-PUBLIC_BUCKET_URL="https://multi-render.erisa.workers.dev"
+PUBLIC_BUCKET_URL="https://i.sportshead.dev"
 
 [[r2_buckets]]
 binding = "R2"
-bucket_name = "kot"
-preview_bucket_name = "kot"
+#preview_bucket_name = "kot"
+bucket_name = "images"
 
