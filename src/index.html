@@ -148,6 +148,16 @@
                         });
                 }),
             );
+
+            window.addEventListener("paste", (e)=> {
+                if (!e.clipboardData.files.length) {
+                    return;
+                }
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(e.clipboardData.files[0]);
+
+                document.getElementById("file").files = dataTransfer.files;
+            });
         </script>
     </body>
 </html>
