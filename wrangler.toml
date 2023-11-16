@@ -11,6 +11,6 @@ PUBLIC_BUCKET_URL="https://i.sportshead.dev"
 
 [[r2_buckets]]
 binding = "R2"
-#preview_bucket_name = "kot"
+preview_bucket_name = "images"
 bucket_name = "images"
 
